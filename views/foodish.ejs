@@ -3,7 +3,7 @@
 <head>
 	<title>Foodish</title>
 	<!-- Logo -->
-	<link rel="shortcut icon" href="/assets/logo.ico">
+	<link rel="shortcut icon" href="/assets/logo_vego.ico">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 	<!-- Bootstrap CSS -->
@@ -13,8 +13,8 @@
 </head>
 <body>
 	<div class="container">
-        <h1><img src="/assets/logo.png" alt="logo" title="Samosa" height="60"/> Foodish</h1>
-        <p class="lead">&#x1F372; Random pictures of food dishes. &#x1F35B;</p>
+        <h1><img src="/assets/logo_vego.jpg" alt="logo" title="Samosa" height="60"/> Vegon</h1>
+        <p class="lead">&#x1F372; Random pictures of food Vegon. &#x1F35B;</p>
         <div class="row align-items-center">
             <div class="col">
                 <% if (food.image) { %>
@@ -28,29 +28,29 @@
                             <% if (dish.title === 'Total Foodishes') { %>
                                 <li><%= dish.title %> : <%= dish.count %></li>
                             <% } else { %>
-                                <li><a href="https://foodish-api.herokuapp.com/images/<%= dish.title %>/"><%= dish.title %></a> : <%= dish.count %></li>
+                                <li><a href="https://api.vegon.cloud/images/<%= dish.title %>/"><%= dish.title %></a> : <%= dish.count %></li>
                             <% } %>
                         <% }) %>
                     </ul>
                 <% } %>
                 <% if (food.image) { %>
-                    <span>Share this foodish : </span>
-                    <input type="text" class="form-control" value="https://foodish-api.herokuapp.com/images/<%= food.image %>"/>
+                    <span>Share this vegon : </span>
+                    <input type="text" class="form-control" value="https://api.vegon.cloud/images/<%= food.image %>"/>
                 <% } %>
                 <br>
-                <span>API available at : <a href="https://foodish-api.herokuapp.com/api/">https://foodish-api.herokuapp.com/api/</a></span>
+                <span>API available at : <a href="https://api.vegon.cloud/api/">https://api.vegon.cloud/api/</a></span>
                 <br>
-                <span>Read the Documentation at : <a href="https://github.com/surhud004/Foodish#readme">Foodish</a></span>
+                <span>Read the Documentation at : <a href="https://github.com/surhud004/Foodish#readme">Vegon</a></span>
                 <br>
                 <br>
-                <span>Try a Random Burger : <a href="https://foodish-api.herokuapp.com/images/burger/">https://foodish-api.herokuapp.com/images/burger/</a></span>
+                <span>Try a Random Burger : <a href="https://api.vegon.cloud/images/burger/">https://api.vegon.cloud/images/burger/</a></span>
                 <br>
-                <span>Try an Unknown Foodish : <a href="https://foodish-api.herokuapp.com/images/somefoodish/">https://foodish-api.herokuapp.com/images/somefoodish/</a></span>
+                <span>Try an Unknown Vegon : <a href="https://api.vegon.cloud/images/somefoodish/">https://api.vegon.cloud/images/somefoodish/</a></span>
                 </div>
             </div>
         </div>
         <footer class="footer">
-            <p class="lead">Designed and Coded by : <a href="https://github.com/surhud004">surhud004</a> &copy; <%= new Date().getFullYear(); %></p>
+            <p class="lead">Forked and Coded by : <a href="https://github.com/revego">revego</a> &copy; <%= new Date().getFullYear(); %></p>
             <!-- Build date : 10th October 2020 -->
         </footer>
     </div>

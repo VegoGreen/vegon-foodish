@@ -46,21 +46,21 @@ app.get('/', (req, res) => {
     // catchOfTheDay is burger101.jpg
     let catchOfTheDay = Math.floor((Math.random() * randomFoodDB.length) + 1);
 
-    res.render('foodish' , { 
+    res.render('foodish' , {
         food : {
             image : `${anyRandomFood}/${anyRandomFood}${catchOfTheDay}.jpg`,
             foodDB : getImageCount()
-        } 
+        }
     });
 });
 
 app.get('/images/:food', (req, res) => {
     // food is pizza
     let food = req.params.food;
-    
-    // foodPath points to pizza directory 
+
+    // foodPath points to pizza directory
     let foodPath = `./public/assets/images/${food}`;
-    
+
     // check if pizza directory exists
     if (fs.existsSync(foodPath)) {
 
@@ -87,9 +87,9 @@ app.get('/api', (req, res) => {
         let anyRandomFood = menuDB[randomSelector];
         let randomFoodDB = fs.readdirSync(`./public/assets/images/${anyRandomFood}`);
         let catchOfTheDay = Math.floor((Math.random() * randomFoodDB.length) + 1);
-        res.status(200).send({ 'image' : `https://foodish-api.herokuapp.com/images/${anyRandomFood}/${anyRandomFood}${catchOfTheDay}.jpg`});
+        res.status(200).send({ 'image' : `https://api.vegon.cloud/images/${anyRandomFood}/${anyRandomFood}${catchOfTheDay}.jpg`});
     } catch (error) {
-        res.status(500).send({ 'error' : error});    
+        res.status(500).send({ 'error' : error});
     }
 });
 
@@ -100,10 +100,10 @@ app.get('/api/images/:food', (req, res) => {
         if (fs.existsSync(foodPath)) {
             let foodDB = fs.readdirSync(foodPath);
             let randomFood = Math.floor((Math.random() * foodDB.length) + 1);
-            res.status(200).send({ 'image' : `https://foodish-api.herokuapp.com/images/${food}/${food}${randomFood}.jpg`});
+            res.status(200).send({ 'image' : `https://api.vegon.cloud/images/${food}/${food}${randomFood}.jpg`});
         } else {
             res.status(404).send({ 'error' : 'Not found.'});
-        }   
+        }
     } catch (error) {
         res.status(500).send({ 'error' : error});
     }

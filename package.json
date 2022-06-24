@@ -1,7 +1,7 @@
 {
   "name": "foodish",
   "version": "1.0.0",
-  "description": "Random pictures of food dishes.",
+  "description": "Random pictures from Vegon",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -22,9 +22,10 @@
     "cors": "^2.8.5",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "image-size": "^1.0.0"
+    "image-size": "^1.0.0",
+    "python": "^0.0.4"
   },
   "engines": {
-    "node": "10.16.1"
+    "node": "12.22.12"
   }
 }

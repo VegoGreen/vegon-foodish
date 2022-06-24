@@ -1,0 +1,25 @@
+total 18056
+drwxr-xr-x  24 apollo  staff      768 10 Gen 20:23 .
+drwxr-xr-x  29 apollo  staff      928  2 Feb 13:21 ..
+-rw-r--r--   1 apollo  staff   183434 10 Gen 20:23 samosa1.jpg
+-rw-r--r--   1 apollo  staff   252523 10 Gen 20:23 samosa10.jpg
+-rw-r--r--   1 apollo  staff   138203 10 Gen 20:23 samosa11.jpg
+-rw-r--r--   1 apollo  staff   121764 10 Gen 20:23 samosa12.jpg
+-rw-r--r--   1 apollo  staff  2496059 10 Gen 20:23 samosa13.jpg
+-rw-r--r--   1 apollo  staff   131547 10 Gen 20:23 samosa14.jpg
+-rw-r--r--   1 apollo  staff   112708 10 Gen 20:23 samosa15.jpg
+-rw-r--r--   1 apollo  staff    66713 10 Gen 20:23 samosa16.jpg
+-rw-r--r--   1 apollo  staff   100033 10 Gen 20:23 samosa17.jpg
+-rw-r--r--   1 apollo  staff   113496 10 Gen 20:23 samosa18.jpg
+-rw-r--r--   1 apollo  staff   681377 10 Gen 20:23 samosa19.jpg
+-rw-r--r--   1 apollo  staff   156265 10 Gen 20:23 samosa2.jpg
+-rw-r--r--   1 apollo  staff   899415 10 Gen 20:23 samosa20.jpg
+-rw-r--r--   1 apollo  staff   288352 10 Gen 20:23 samosa21.jpg
+-rw-r--r--   1 apollo  staff   162483 10 Gen 20:23 samosa22.jpg
+-rw-r--r--   1 apollo  staff   237827 10 Gen 20:23 samosa3.jpg
+-rw-r--r--   1 apollo  staff   204663 10 Gen 20:23 samosa4.jpg
+-rw-r--r--   1 apollo  staff   399697 10 Gen 20:23 samosa5.jpg
+-rw-r--r--   1 apollo  staff    74990 10 Gen 20:23 samosa6.jpg
+-rw-r--r--   1 apollo  staff   639823 10 Gen 20:23 samosa7.jpg
+-rw-r--r--   1 apollo  staff   273626 10 Gen 20:23 samosa8.jpg
+-rw-r--r--   1 apollo  staff  1463490 10 Gen 20:23 samosa9.jpg

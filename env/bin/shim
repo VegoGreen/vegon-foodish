@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/Users/apollo/Desktop/PYTHON/API/JS-NODE/env/lib/node_modules'
+export NPM_CONFIG_PREFIX='/Users/apollo/Desktop/PYTHON/API/JS-NODE/env'
+export npm_config_prefix='/Users/apollo/Desktop/PYTHON/API/JS-NODE/env'
+exec 'env/bin/node' "$@"

@@ -1,0 +1,25 @@
+total 8392
+drwxr-xr-x  24 apollo  staff     768 10 Gen 20:23 .
+drwxr-xr-x  15 apollo  staff     480  2 Feb 13:12 ..
+-rw-r--r--   1 apollo  staff  101564 10 Gen 20:23 butter-chicken1.jpg
+-rw-r--r--   1 apollo  staff  119721 10 Gen 20:23 butter-chicken10.jpg
+-rw-r--r--   1 apollo  staff  795189 10 Gen 20:23 butter-chicken11.jpg
+-rw-r--r--   1 apollo  staff  219000 10 Gen 20:23 butter-chicken12.jpg
+-rw-r--r--   1 apollo  staff  315603 10 Gen 20:23 butter-chicken13.jpg
+-rw-r--r--   1 apollo  staff  220870 10 Gen 20:23 butter-chicken14.jpg
+-rw-r--r--   1 apollo  staff  131671 10 Gen 20:23 butter-chicken15.jpg
+-rw-r--r--   1 apollo  staff   97036 10 Gen 20:23 butter-chicken16.jpg
+-rw-r--r--   1 apollo  staff   83312 10 Gen 20:23 butter-chicken17.jpg
+-rw-r--r--   1 apollo  staff  116082 10 Gen 20:23 butter-chicken18.jpg
+-rw-r--r--   1 apollo  staff  229300 10 Gen 20:23 butter-chicken19.jpg
+-rw-r--r--   1 apollo  staff   55531 10 Gen 20:23 butter-chicken2.jpg
+-rw-r--r--   1 apollo  staff  130195 10 Gen 20:23 butter-chicken20.jpg
+-rw-r--r--   1 apollo  staff  151472 10 Gen 20:23 butter-chicken21.jpg
+-rw-r--r--   1 apollo  staff  188170 10 Gen 20:23 butter-chicken22.jpg
+-rw-r--r--   1 apollo  staff   67293 10 Gen 20:23 butter-chicken3.jpg
+-rw-r--r--   1 apollo  staff  296503 10 Gen 20:23 butter-chicken4.jpg
+-rw-r--r--   1 apollo  staff   94098 10 Gen 20:23 butter-chicken5.jpg
+-rw-r--r--   1 apollo  staff  191100 10 Gen 20:23 butter-chicken6.jpg
+-rw-r--r--   1 apollo  staff  112526 10 Gen 20:23 butter-chicken7.jpg
+-rw-r--r--   1 apollo  staff   97955 10 Gen 20:23 butter-chicken8.jpg
+-rw-r--r--   1 apollo  staff  443422 10 Gen 20:23 butter-chicken9.jpg
