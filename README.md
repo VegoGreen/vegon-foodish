@@ -6,7 +6,7 @@ A Node.js/Express.js REST API to GET a random picture of food dishes.
 ![](https://img.shields.io/badge/contributions-welcome-34cdfa)
 
 ## Demo
-Visit https://foodish-api.herokuapp.com/
+Visit https://api.vegon.cloud/
 
 ## API Documentation
 Base URL for all endpoints https://api.vegon.cloud/
@@ -50,15 +50,16 @@ Example Response-
 
 ## Authors
 * [Surhud Bhagali](https://github.com/surhud004)
+* * [revego](https://github.com/revego)
 * Special thanks to [Rajaraman Ekambaram](https://github.com/Rtech2014) for providing the initial Foodish image database via [Kaggle](https://www.kaggle.com/datasets).
 * Special thanks to [RitaE](https://pixabay.com/users/ritae-19628/) for providing some additional Foodish images via [Pixabay](https://pixabay.com/).
 ###### Please note that I do not own any of the Foodish dataset images. All Foodish images and their ownership belong to their original creators.
 
 ## Support
-Please [create a new issue](https://github.com/surhud004/Foodish/issues/new) for support and issues.
+Please [create a new issue](https://github.com/revego/vegon-foodish/issues/new) for support and issues.
 
 ## Contributing
-Please read the [CONTRIBUTING](https://github.com/surhud004/Foodish/blob/main/CONTRIBUTING.md) for details on adding images to the Foodish Database.
+Please read the [CONTRIBUTING](https://github.com/revego/vegon-oodish/blob/main/CONTRIBUTING.md) for details on adding images to the Foodish Database.
 
 ## Contributors
 * [angelina-tsuboi](https://github.com/angelina-tsuboi)
