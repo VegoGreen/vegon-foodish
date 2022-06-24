@@ -1,4 +1,4 @@
-# 🍲 Foodish 🍛
+# 🍲 Vegon 🍛
 ![Logo](https://github.com/surhud004/Foodish/blob/main/public/logo.ico "Samosa")
 
 A Node.js/Express.js REST API to GET a random picture of food dishes.
@@ -9,7 +9,7 @@ A Node.js/Express.js REST API to GET a random picture of food dishes.
 Visit https://foodish-api.herokuapp.com/
 
 ## API Documentation
-Base URL for all endpoints https://foodish-api.herokuapp.com/
+Base URL for all endpoints https://api.vegon.cloud/
 
 _The response time will likely be a few seconds long on the first request, because this app is running on a free Heroku dyno. Subsequent requests will behave as normal._
 
@@ -24,7 +24,7 @@ Example Request-
 
 Example Response-
 ```
-{"image":"https://foodish-api.herokuapp.com/images/burger/burger101.jpg"}
+{"image":"https://api.vegon.cloud/images/burger/burger101.jpg"}
 ```
 ----------------------------
 Routes | Description
@@ -39,7 +39,7 @@ Example Request-
 
 Example Response-
 ```
-{"image":"https://foodish-api.herokuapp.com/images/biryani/biryani32.jpg"}
+{"image":"https://api.vegon.cloud/images/biryani/biryani32.jpg"}
 ```
 ----------------------------
 ## Usage
