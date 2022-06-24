@@ -1,5 +1,5 @@
 # 🍲 Vegon 🍛
-![Logo](https://github.com/VegoGreen/vegon-foodish/blob/main/public/logo.ico "Samosa")
+![Logo](https://github.com/VegoGreen/vegon-foodish/public/logo.ico "Samosa")
 
 A Node.js/Express.js REST API to GET a random picture of food dishes.
 
