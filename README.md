@@ -7,7 +7,7 @@ A Node.js/Express.js REST API to GET a random picture of food dishes.
 ![](https://img.shields.io/badge/contributions-welcome-34cdfa)
 
 ## Demo
-Visit https://api.vegon.cloud/api/
+Visit https://api.vegon.cloud
 
 ## API Documentation
 Base URL for all endpoints https://api.vegon.cloud/
@@ -32,7 +32,7 @@ Routes | Description
 ------------ | -------------
 `GET /api/images/:food` | Random picture from `food` category.
 
-Please visit the [demo](https://github.com/VegoGreen/vegon-foodish/Foodish#demo) website to view the list of available `food` categories.
+Please visit the [demo](https://github.com/VegoGreen/vegon-foodish/#demo) website to view the list of available `food` categories.
 
 Example Request-
 
@@ -67,7 +67,7 @@ Please read the [CONTRIBUTING](https://github.com/revego/vegon-oodish/blob/main/
 * [ElijahRus250](https://github.com/ElijahRus250)
 
 ## License
-This project is licensed under [MIT](https://opensource.org/licenses/MIT). Please read the [LICENSE](https://github.com/surhud004/Foodish/blob/main/LICENSE) for details.
+This project is licensed under [MIT](https://opensource.org/licenses/MIT). Please read the [LICENSE](https://github.com/VegoGreen/vegon-foodish/blob/main/LICENSE) for details.
 
 ----------------------------
-###### [Foodish API](https://github.com/surhud004/Foodish) is maintained by [surhud004](https://github.com/surhud004).
+###### [Foodish API](https://github.com/VegoGreen/vegon-foodish) is maintained by [revego](https://github.com/revego).

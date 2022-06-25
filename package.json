@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/surhud004/Foodish.git"
+    "url": "git+https://github.com/VegoGreen/vegon-foodish.git"
   },
   "author": "Surhud Bhagali (surhud004)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/surhud004/Foodish/issues"
+    "url": "https://github.com/VegoGreen/vegon-foodish/issues"
   },
-  "homepage": "https://github.com/surhud004/Foodish#readme",
+  "homepage": "https://github.com/VegoGreen/vegon-foodish#readme",
   "dependencies": {
     "@actions/core": "^1.4.0",
     "cors": "^2.8.5",
