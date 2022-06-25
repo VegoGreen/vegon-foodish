@@ -57,10 +57,10 @@ Example Response-
 ###### Please note that I do not own any of the Foodish dataset images. All Foodish images and their ownership belong to their original creators.
 
 ## Support
-Please [create a new issue](https://github.com/revego/vegon-foodish/issues/new) for support and issues.
+Please [create a new issue](https://github.com/VegoGreen/vegon-foodish/issues/new) for support and issues.
 
 ## Contributing
-Please read the [CONTRIBUTING](https://github.com/revego/vegon-oodish/blob/main/CONTRIBUTING.md) for details on adding images to the Foodish Database.
+Please read the [CONTRIBUTING](https://github.com/VegoGreen/vegon-foodish/blob/main/CONTRIBUTING.md) for details on adding images to the Foodish Database.
 
 ## Contributors
 * [angelina-tsuboi](https://github.com/angelina-tsuboi)
