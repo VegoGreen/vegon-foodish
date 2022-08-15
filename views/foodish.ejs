@@ -1,58 +1,93 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Foodish</title>
-	<!-- Logo -->
-	<link rel="shortcut icon" href="/assets/logo_vego.ico">
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-	<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Vegon Foodish</title>
+    <!-- Logo -->
+    <link rel="shortcut icon" href="/assets/logo_vego.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Sora" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/styles.css">
 </head>
+
 <body>
-	<div class="container">
-        <h1><img src="/assets/logo_vego.jpg" alt="logo" title="Samosa" height="60"/> Vegon</h1>
-        <p class="lead">&#x1F372; Random pictures of food Vegon. &#x1F35B;</p>
+    <div class="container">
+        <h1 class="display-4"><img src="/assets/logo_vego.jpg" class="rounded" alt="logo" title="Samosa" height="60" />
+            Vegon</h1>
+        <p class="lead">&#x1F372; Random pictures for platform Vegon. &#x1F35B;</p>
         <div class="row align-items-center">
-            <div class="col">
+            <div class="col-md-6">
                 <% if (food.image) { %>
-                    <img src="/images/<%= food.image %>" alt="foodish"/>
-                <% } %>
+                    <img src="/images/<%= food.image %>" class="img-fluid" alt="foodish" />
+                    <% } %>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <% if (food.foodDB) { %>
-                    <ul>
-                        <% food.foodDB.forEach((dish) => { %>
-                            <% if (dish.title === 'Total Foodishes') { %>
-                                <li><%= dish.title %> : <%= dish.count %></li>
-                            <% } else { %>
-                                <li><a href="https://api.vegon.cloud/images/<%= dish.title %>/"><%= dish.title %></a> : <%= dish.count %></li>
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Count</th>
+                            </tr>
+                        </thead>
+                        <% food.foodDB.forEach((dish)=> { %>
+                            <% if (dish.title==='Total Foodishes' ) { %>
+                                <li>
+                                    <%= dish.title %> : <%= dish.count %>
+                                </li>
+                                <% } else { %>
+                                    <tr>
+                                        <td>
+                                            <a href="https://api.vegon.cloud/images/<%= dish.title %>/">
+                                                <%= dish.title %>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <span class="badge badge-pill badge-info">
+                                                <%= dish.count %>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <a href="https://api.vegon.cloud/images/<%= dish.title %>/">
+                                        <%= dish.title %>
+                                    </a> : <%= dish.count %>
+                                        <% } %>
+                                            <% }) %>
+                                                </tbody>
+                    </table>
+                    <% } %>
+                        <% if (food.image) { %>
+                            <span>Share this vegon : </span>
+                            <input type="text" class="form-control"
+                                value="https://api.vegon.cloud/images/<%= food.image %>" />
                             <% } %>
-                        <% }) %>
-                    </ul>
-                <% } %>
-                <% if (food.image) { %>
-                    <span>Share this vegon : </span>
-                    <input type="text" class="form-control" value="https://api.vegon.cloud/images/<%= food.image %>"/>
-                <% } %>
-                <br>
-                <span>API available at : <a href="https://api.vegon.cloud/api/">https://api.vegon.cloud/api/</a></span>
-                <br>
-                <span>Read the Documentation at : <a href="https://github.com/VegoGreen/vegon-foodish#readme">Vegon</a></span>
-                <br>
-                <br>
-                <span>Try a Random Burger : <a href="https://api.vegon.cloud/images/burger/">https://api.vegon.cloud/images/burger/</a></span>
-                <br>
-                <span>Try an Unknown Vegon : <a href="https://api.vegon.cloud/images/somefoodish/">https://api.vegon.cloud/images/somefoodish/</a></span>
-                </div>
+                                <br>
+                                <span>API available at : <a
+                                        href="https://api.vegon.cloud/api/">https://api.vegon.cloud/api/</a></span>
+                                <br>
+                                <span>Read the Documentation at : <a
+                                        href="https://github.com/VegoGreen/vegon-foodish#readme">Vegon</a></span>
+                                <br>
+                                <br>
+                                <span>Try a Random Burger : <a
+                                        href="https://api.vegon.cloud/images/burger/">https://api.vegon.cloud/images/burger/</a></span>
+                                <br>
+                                <span>Try an Unknown Vegon : <a
+                                        href="https://api.vegon.cloud/images/somefoodish/">https://api.vegon.cloud/images/somefoodish/</a></span>
             </div>
         </div>
-        <footer class="footer">
-            <p class="lead">Forked and Coded by : <a href="https://github.com/revego">revego</a> &copy; <%= new Date().getFullYear(); %></p>
-            <!-- Build date : 10th October 2020 -->
-        </footer>
+    </div>
+    <footer class="footer">
+        <p class="lead">Forked and Coded by : <a href="https://github.com/revego">revego</a> &copy; <%= new
+                Date().getFullYear(); %>
+        </p>
+        <!-- Build date : 10th October 2020 -->
+    </footer>
     </div>
 </body>
+
 </html>
